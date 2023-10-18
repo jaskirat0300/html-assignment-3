@@ -1,0 +1,105 @@
+<DOCTYPE html>
+  <html lang="en">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Jaskirat Singh- About Me</title>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+      <header>
+          <h1>Jaskirat Singh</h1>
+      </header>
+      <img src="r.jpg" alt="My Photograph">
+      <h2>My Hobbies</h2>
+      <ul>
+          <li>workout</li>
+          <li>Reading novels</li>
+      </ul>
+      <h3>click the options to redirect the links:</h3>
+      <nav>
+          <li><a href="notes.html" target="_blank">notes</a></li>
+      </nav>
+      <article>
+          <h2>About Me</h2>
+          <p>Hi, I'm Jaskirat Singh . I am from Punjab. I have completed my senior secondary school
+              education in science stream. Now I live in Canada.</p>
+          <p>I love learning new things.I enjoy workout and photography.My favorite subject is "Computer Science".</p>
+          <p> <q><em>"HARDWORK IS KEY TO SUCESS."</em></q>
+          <div>october 17 <sup>th</sup>, 2023</div>
+          </p>
+      </article>
+      <h1>fruit</h1>
+      <ol>
+          <li>Apple</li>
+          <li>Mango</li>
+          <li>ORANGE</li>
+      </ol>
+      <h2>vehicle
+          <ul>
+              <li>Bike</li>
+              <li>Bus</li>
+              <li>Car</li>
+          </ul>
+          <p>&copy; 2023@JaskiratSingh</p>
+          </footer>
+  </body>
+
+  </html>
+
+  /* Inheritance */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Select multiple elements  */
+header, footer {
+    background-color: #065ba6;
+}
+
+/* Class selector  */
+.site-title {
+    color: #00ea0c;
+}
+
+/* Id selector  */
+#my-image {
+    box-shadow: 0 0 2px 1px #000;
+}
+
+/* Replace the bullets from the list of hobbies with squares */
+ul {
+    list-style-type: square;
+}
+
+/* Using the nth-child selector  */
+ul li:nth-child(odd) {
+    background-color: #ec43b6;
+}
+
+/* Styling the Navigation */
+/* Remove the bullets from the unordered list in navigation (only if you have used the ul tag inside the nav tag) */
+nav ul {
+    list-style-type: none;
+}
+
+/* Remove the underline from the links */
+nav a {
+    text-decoration: none;
+}
+
+/* Add a background and border to the links */
+nav a {
+    background-color: #36e909;
+    border: 1px solid #1c558e;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+/* Change the background color on hover or focus state of the links */
+nav a:hover, nav a:focus {
+    background-color: #0c0e2d;
+}
